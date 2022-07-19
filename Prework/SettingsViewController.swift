@@ -42,9 +42,7 @@ class SettingsViewController: UIViewController{
         defaults.setValue(tip3TextField.text, forKey: "tip3")
     }
 
-    //@IBAction func darkMode(_ sender: Any) {
-    //    defaults.setValue(UIColor.black, forKey: "black")
-    //}
+    
     /*
     // MARK: - Navigation
 

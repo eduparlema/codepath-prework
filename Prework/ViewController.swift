@@ -42,9 +42,6 @@ class ViewController: UIViewController {
         if let tipControl3 = defaults.value(forKey: "tip3") as? String{
             tipControl.setTitle(tipControl3+"%", forSegmentAt:2)
         }
-        //if let blackColor = defaults.value(forKey: "black") as? UIColor{
-        //    self.view.backgroundColor = blackColor
-        //}
 
     }
     override func viewDidAppear(_ animated: Bool) {

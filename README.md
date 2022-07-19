@@ -27,7 +27,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://i.imgur.com/pJJouN5.gif)
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -37,7 +38,7 @@ I am new to swift and IOs mobile development and I mainly faced a lot of challen
 
 ## License
 
-    Copyright [2022] [Eduardo]
+    Copyright [2022] [Eduardo Pareja Lema]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -50,3 +51,4 @@ I am new to swift and IOs mobile development and I mainly faced a lot of challen
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License. 
+
