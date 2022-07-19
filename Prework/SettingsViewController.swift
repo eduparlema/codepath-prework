@@ -15,10 +15,24 @@ class SettingsViewController: UIViewController{
     @IBOutlet weak var tip3TextField: UITextField!
     
     let defaults = UserDefaults.standard
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tip1TextField.keyboardType = .asciiCapableNumberPad
+        tip2TextField.keyboardType = .asciiCapableNumberPad
+        tip3TextField.keyboardType = .asciiCapableNumberPad
+
+
+        if let tip1 = defaults.value(forKey: "tip1") as? String{
+            tip1TextField.text = tip1
+        }
+        if let tip2 = defaults.value(forKey: "tip2") as? String{
+            tip2TextField.text = tip2
+        }
+        if let tip3 = defaults.value(forKey: "tip3") as? String{
+            tip3TextField.text = tip3
+        }
     }
     
     //Save the data in UserDefaults after pressing the button 
@@ -28,6 +42,9 @@ class SettingsViewController: UIViewController{
         defaults.setValue(tip3TextField.text, forKey: "tip3")
     }
 
+    //@IBAction func darkMode(_ sender: Any) {
+    //    defaults.setValue(UIColor.black, forKey: "black")
+    //}
     /*
     // MARK: - Navigation
 
